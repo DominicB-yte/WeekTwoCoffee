@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeekTwoCoffee.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Frame BackgroundColor="#2196F3" CornerRadius="0" Padding="0">
+                <Image Source="chan.png" VerticalOptions="EndAndExpand"/>
+            </Frame>
+            <Frame BackgroundColor="#2196F3" CornerRadius="0">
+                <Label Text="Arctic Coffee" HorizontalTextAlignment="Center" TextColor="White" FontSize="46"/>
+            </Frame>
+        </StackLayout>
+        <Frame BackgroundColor="#00c3ff" Padding="0" CornerRadius="0">
+            <Button Text=" Cold Coffee + Other Cold Drinks!" TextColor="White"  FontSize="30" BackgroundColor="Transparent" BorderWidth="0"/>
+        </Frame>
+        <Frame BackgroundColor="#00c3ff" Padding="0" CornerRadius="0">
+            <Button Text="Cold Breakfast!"  TextColor="White" FontSize="30" BackgroundColor="Transparent" BorderWidth="0"/>
+        </Frame>
+        <Frame BackgroundColor="#00c3ff" Padding="0" CornerRadius="0">
+            <Button Text="Cold Lunch!"  TextColor="White" FontSize="30" BackgroundColor="Transparent" BorderWidth="0"/>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

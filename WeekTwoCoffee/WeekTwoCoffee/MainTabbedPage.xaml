@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeekTwoCoffee.MainTabbedPage">
+
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Menu">
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Frame BackgroundColor="#2196F3" CornerRadius="0" Padding="0">
+                    <Image Source="images.jpg" VerticalOptions="EndAndExpand"/>
+                </Frame>
+                <Frame BackgroundColor="#2196F3" CornerRadius="0">
+                    <Label Text="Arctic Coffee" 
+                           HorizontalTextAlignment="Center" 
+                           TextColor="White" 
+                           FontSize="46"
+                           FontFamily="Lobster"/>
+                </Frame>
+            </StackLayout>
+            <Frame BackgroundColor="#1269b0" Padding="0" CornerRadius="0">
+                <Button Text=" Cold Coffee + Other Icy Drinks!" 
+                        TextColor="White"  
+                        FontSize="30" 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0"
+                        Clicked="drinksBtn_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="#1269b0" Padding="0" CornerRadius="0">
+                <Button Text="Cool Breakfast!"  
+                        TextColor="White" 
+                        FontSize="30" 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0"
+                        Clicked="breakfastBtn_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="#1269b0" Padding="0" CornerRadius="0">
+                <Button Text="Chilled Brunch!"  
+                        TextColor="White" 
+                        FontSize="30" 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0"
+                        Clicked="brunchBtn_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="#1269b0" Padding="0" CornerRadius="0">
+                <Button Text="Frosty Lunch!"
+                        TextColor="White"
+                        FontSize="30"
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0"
+                        Clicked="lunchBtn_Clicked"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="About">
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="#2196F3" CornerRadius="0">
+                        <Label Text="&quot;It's all best served cold!&quot;" 
+                           HorizontalTextAlignment="Center" 
+                           TextColor="White" 
+                           FontSize="47.7"
+                           FontAttributes="Italic"/>
+                    </Frame>
+
+                <Image Source="sign.png" VerticalOptions="CenterAndExpand"/>
+
+                <Frame CornerRadius="0" Padding="0">
+                    <Label Text="33 Garreth St. 
+                                 &#10;Newmarket
+                                 &#10;Auckland
+                                 &#10;1023
+                                 &#10;&#10;64+ 022 484 5359
+                                 &#10;&#10;info@articcoffee.co.nz" 
+                               FontSize="26"
+                               Margin="30, 0, 0, 0"/>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="facebook.png" Margin="7, 0, 0, 0"/>
+                    <Image Source="instagram.jpg"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    
+    <ContentPage Title="Map">
+        <StackLayout>
+            <!--<Frame BackgroundColor="#2196F3" Margin="0" CornerRadius="0">
+                <Label Text="Where we're at!" 
+                       HorizontalTextAlignment="Center" 
+                       TextColor="White" 
+                       FontSize="36"/>
+            </Frame>-->
+            <WebView Source="https://maps.apple.com/place?address=
+                     4a%20kent%20street,%20Newmarket,%20Auckland%201023,%20New%20Zealand"
+                     VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

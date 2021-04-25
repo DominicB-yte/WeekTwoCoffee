@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeekTwoCoffee.LunchPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="lunch1.jpg" />
+                    <Label Text="Chicken Caesar Pitas&#10;$2.50"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand" 
+                            FontSize="30" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="lunch2.jpg" />
+                    <Label Text="Gingered Spaghetti Salad&#10;$7.50"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand" 
+                            FontSize="30" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

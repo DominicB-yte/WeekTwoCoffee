@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeekTwoCoffee.DrinksPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nitro Cold Brew"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                    <Label Text="$3.80"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Iced Latte"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                    <Label Text="$4.20"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Frappuchino"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                    <Label Text="$4.50"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Iced Coffee"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                    <Label Text="$3.00"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="#1269b0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Creamy Iced Coffee"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                    <Label Text="$3.50"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        FontSize="24" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
